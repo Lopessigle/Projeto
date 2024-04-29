@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(197, 195, 195);
+}
+
+.Titulo{
+    margin-top: 20px;
+    margin-bottom: -50px;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#Lista-de-imagen{
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+
+
+/*imagen da página*/
+
+.imagens{
+    text-indent: 10px;
+    border-width: 40px;
+    display: inline-flex;
+
+}
+
+img{
+    border: 10px;
+    float: left;
+    padding: 10%;
+    margin-left: 20px;
+    background-size: cover;
+}
+
+/*-----------------------*/
+
+/*iamgem do topo da pagina*/
+
+header{
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: solid 10px;
+    padding: 10px;
+   background-color: rgb(136, 134, 134);
+}
+
+/*---------------------------*/
+
+/*section da pagina*/
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Lita-não-Ordenada a{
+    text-decoration: none;
+    color: white;
+}
+
+.Lita-não-Ordenada :hover{
+    color: red;
+}
+
+.Lita-não-Ordenada{
+    word-spacing: 2px;
+    border-radius: 10px;
+   margin-left: 20%;
+   display: flex;
+   background-color: rgb(95, 94, 94);
+   margin-right: 25%;
+   padding: 2.5px;
+   margin-bottom: 20px;
+
+}
+
+p{
+    margin-bottom: 10px;
+}
+#box{
+    border-radius: 10px;
+    background-size: contain;
+    text-indent: 100px;
+    margin-left: 10px;
+    float: left;
+    display: inline-flex;
+    margin-inline: 10px; 
+    
+}
+
+
+
+.Ar-Condicionado{
+    
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.Geladeira{
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.Industria{
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+li{
+    margin-left: 10px;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+/*Footer da pagina*/
+
+
+
+footer{
+    padding: 10px;
+    border-top: solid 10px;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color: rgb(97, 96, 96);
+}
+
+/*ÍCONIS*/
+
+.Redes-sociais{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    padding: 20px;
+    width: 150px;
+   
+}
+
+a{
+    text-align: center;
+    border: 10px;
+    float: left;
+    padding: 20px;
+    background-size: cover;
+}
+
+.Facebook{
+    
+    border-radius: 100% 50%;
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(135, 135, 245);
+}
+
+.Instagran{
+    margin-left: 10px;
+    border-radius: 100% 50%;
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(248, 122, 170);
+}
+
+.Whatsapp{
+    margin-left: 10px;
+    border-radius: 100% 50%;
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(18, 124, 41);
+}
+
+.E-mail :hover{
+    color: red;
+}
+
+.E-mail a{
+    padding: 1px;
+    width: 1%;
+}
+
+.E-mail{
+    color: white;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 100px;
+    float: right;
+    
+}
+
+.fa-regular{
+    color: white;
+width: 25px;
+font-size: 30px;
+margin-top: 20px;
+}
+ 
+
+
+input{
+    color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: right;
+    background-color: rgb(8, 8, 8);
+}
+
+.localização{
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.Time{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.copy{
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    margin-top: 20px;
+}
+
+/*----------------*/

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Rodapé da pagina inicial*/
+h1{
+    padding: 10px;
+    text-align: center;
+    color: rgb(1, 8, 75);
+    background-color: rgb(87, 86, 86);
+    border-radius: 10px;
+    border-bottom: solid black;
+}
+
+/*---------------------------*/
+
+
+/*Serviço Proposto/ Ar-Condicionado*/
+h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*----------------------------------*/
+
+
+/*Inicio da página*/
+.Topo-Pagina{
+    color: rgb(7, 7, 7);
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(155, 154, 154);
+}
+
+/*----------------*/
+
+/*Style dento da imagem */
+
+li{
+    padding: 5px;
+    color: white;
+}
+
+.Topo-Pagina{
+    
+    width: 30%;
+    background-image: url(img/Ar-Condicionado) ;
+    background-size: cover;
+}
+/*--------------------------*/
+
+
+/*Modelos de imagem */
+.Modelos{
+    word-spacing: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+/*-------------------*/
+
+p{
+    margin-top: 10px;
+    margin-left: 50%;
+   margin-right: 20px;
+   text-align: left;
+}
+
+h4{
+    text-transform: capitalize;
+    word-spacing: 250px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: 45%;
+    color: rgb(129, 129, 129);
+}
+
+/*button da pagina (Voltar)*/
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+   color: blue;
+}
+
+a:hover{
+   color: red;
+}
+/*---------------------------*/
+
+
+/*article*/
+
+h2{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10p;
+}
+
+.Limpeza{
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(img/limpeza-ar);
+}
+
+.Limpeza li{
+    color: black;
+}
+
+.imagens{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+    background-size: cover;
+    margin-top: -18%;
+    text-align: right;
+}
+
+.imagens p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 50px;
+    border-radius: 5px;
+   border-top: solid black 3px;
+    background-color: rgb(87, 87, 87);
+}
