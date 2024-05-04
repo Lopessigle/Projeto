@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+}
+
+h1{
+    border-bottom: solid #000 1rem;
+    background-color: #a7a6a6;
+    border-radius: 1rem;
+    text-align: center;
+    color: #022e57;
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #b4b4b4;
+
+}
+
+
+
+.danfoss{
+    border: solid #000;
+    display: inline-block;
+    color: #0a0a0a;
+    background-color: #a7a6a6;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+.danfoss img{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.chiler{
+    border: solid #000;
+    display: inline-block;
+    background-color: #a7a6a6;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.PMOC{
+    border:  solid #000;
+    display: inline-block;
+    background-color: #a7a6a6;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+footer{
+    padding: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: rgb(142, 143, 143);
+    background-color: black;
+    border-top: solid #a7a6a6 1rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button{
+    background-color: black;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.button:hover{
+    border-radius: solid;
+    background-color: #7bbdfa;
+}
+
+a{
+    padding: .5rem;
+}

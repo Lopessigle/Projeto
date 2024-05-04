@@ -3,55 +3,35 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(197, 196, 196);
+}
+
 /*Rodapé da pagina inicial*/
 h1{
-    padding: 10px;
+    padding: 1rem;
+    margin: 1rem;
     text-align: center;
-    color: rgb(1, 8, 75);
-    background-color: rgb(87, 86, 86);
-    border-radius: 10px;
-    border-bottom: solid black;
+    border-radius: .5rem;
+    color: rgb(142, 143, 143);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-bottom: solid #7bbdfa 1rem;
 }
 
 /*---------------------------*/
 
 
-/*Serviço Proposto/ Ar-Condicionado*/
-h3{
-    margin-top: 10px;
-    margin-left: 10px;
-}
-/*----------------------------------*/
+#Conteiner{
 
-
-/*Inicio da página*/
-.Topo-Pagina{
-    color: rgb(7, 7, 7);
-    margin-left: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 10px;
-    background-color: rgb(155, 154, 154);
-}
-
-/*----------------*/
-
-/*Style dento da imagem */
-
-li{
-    padding: 5px;
-    color: white;
-}
-
-.Topo-Pagina{
+    display: block;
+    display: inline-flex;
     
-    width: 30%;
-    background-image: url(img/Ar-Condicionado) ;
-    background-size: cover;
+    padding: 1rem;
+    
 }
-/*--------------------------*/
-
+/*----------------*/
 
 /*Modelos de imagem */
 .Modelos{
@@ -64,83 +44,146 @@ li{
 
 /*-------------------*/
 
-p{
-    margin-top: 10px;
-    margin-left: 50%;
-   margin-right: 20px;
-   text-align: left;
-}
+/*imagem & do Container*/
 
-h4{
-    text-transform: capitalize;
-    word-spacing: 250px;
-    display: inline-block;
-    margin-left: 20px;
-    text-align: center;
-    margin-left: 45%;
-    color: rgb(129, 129, 129);
-}
-
-/*button da pagina (Voltar)*/
-button{
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 5px;
+.Serviço{
     
+    width: 30%;
+    border: solid black;
+    background-image: url(img/Ar-Condicionado) ;
+    background-size: cover;
 }
 
-a{
-    text-decoration: none;
-   color: blue;
+.Serviço li{
+    padding: 5px;
+    color: white;
 }
 
-a:hover{
-   color: red;
+.Serviço h3{
+    text-align: center;
+    margin: 1rem;
 }
-/*---------------------------*/
 
+.Modelos{
+    margin-right: 2rem;
+    border: solid black;
+    padding: 1rem;
+    background-color: #7bbdfa;
+}
 
-/*article*/
+.Modelos p{
+    padding: 1rem;
+    text-align: center;
+}
+/*Fim imagem & do Container*/
 
-h2{
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 10p;
+/*block Limpeza*/
+
+.casa{
+    text-align: center;
+    display: inline-block;
+    margin-right: 30rem;
+}
+
+.casa img{
+   margin-left: 20px;
+    padding: 1rem;
+    background-color: #7bbdfa;
 }
 
 .Limpeza{
-    margin-top: 100px;
-    border-radius: 10px;
-    margin-left: 10px;
-    padding: 20px;
+    background-color: #7bbdfa;
     display: inline-block;
-    background-size: cover;
-    background-image: url(img/limpeza-ar);
+    border: solid black;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .Limpeza li{
-    color: black;
+    margin: .5rem;
+
 }
+/*Fim block Limpeza*/
 
 .imagens{
-    margin-bottom: 20px;
-    margin-right: 20px;
-    text-transform: capitalize;
-    background-size: cover;
-    margin-top: -18%;
-    text-align: right;
+    display: inline-flex;
+    margin: 1rem;
+    padding: 1rem;
 }
 
-.imagens p{
-    margin-top: 10px;
+.imagens img{
+    background-color: #7bbdfa;
+    margin-top: 1rem;
+    border: solid #000;
+    width: 50%;
+    padding: 2rem;
+    margin: 8rem;
+
+}
+
+h3{
+    margin-top: 1rem;
+    margin-bottom: -70px;
+    padding: 1rem;
     text-align: center;
+    
 }
 
+.descrição{
+    text-align: center;
+    padding: 1rem;
+}
+
+.descrição ol{
+    padding: 1rem;
+    
+}
+
+/*button da pagina (Voltar)*/
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button{
+    background-color: #000;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.button:hover{
+    border-radius: solid;
+    background-color: #7bbdfa;
+}
+
+a{
+    padding: .5rem;
+}
+
+/*Fim button da pagina (Voltar)*/
+
+
+
+
+
+
+
+
+/*footer da página*/
 
 footer{
-    margin-top: 50px;
-    border-radius: 5px;
-   border-top: solid black 3px;
-    background-color: rgb(87, 87, 87);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: rgb(142, 143, 143);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-top: solid #7bbdfa 1rem;
 }
+
+/*Fim do footer*/

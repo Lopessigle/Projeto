@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*inicio do radapé da página*/
+
+h1{
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: rgb(142, 143, 143);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-bottom: solid #7bbdfa 1rem;
+}
+
+
+/*article da página*/
+
+h3, h2{
+    padding: .4rem;
+    color: rgb(252, 251, 251);
+}
+
+h2{
+    color: rgb(168, 168, 168);
+    background-color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
+
+article{
+    border-radius: 1rem;
+    background-image: url(img/img.fundo);
+}
+
+.Geladeira img{
+   padding: 2rem;
+    background-size: cover;
+}
+
+.Geladeira{
+    text-align: center;
+    display: inline-flex;
+    display: flex;
+    margin-inline: 2rem;
+}
+
+#Manutencão{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    
+}
+
+li{
+    display: flex;
+    
+}
+
+img{
+    display: flex;
+    display: inline-flex;
+}
+
+.Conclusão{
+    text-align: center;
+    margin-left: 4rem;
+}
+
+/*fim article da página*/
+
+/*inicio section da página*/
+
+
+section{
+    text-align: center;
+}
+
+.Cuidados{
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    display: inline-block;
+    background-color: black;
+}
+
+.Cuidados ul{
+    padding: 2rem;
+    color: #fff;
+}
+
+h4{
+    text-transform: capitalize;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.P{
+
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(151, 148, 148);
+    display: inline-block;
+    display: block;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button{
+    background-color: black;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.button:hover{
+    border-radius: solid;
+    background-color: #7bbdfa;
+}
+
+a{
+    padding: .5rem;
+}
+/*Fim section da página*/
+
+
+footer{
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: rgb(142, 143, 143);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-top: solid #7bbdfa 1rem;
+}
